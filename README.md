@@ -15,5 +15,8 @@ The purpose of this project is to practice building forms, collecting user input
 - HTML5
 - CSS3
 
+## Live Demo
+[View Project](https://djulimandino.github.io/survey-form/)
+
 ## Author
 Dino Đuliman
