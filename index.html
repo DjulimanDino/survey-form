@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+ <h1 id="title">Survey Form</h>
+
+<p id="description">
+This is a simple survey form for users.
+</p>
+<form id="survey-form">
+  <input id="name" type="text" placeholder="Please enter Your name" required>
+  <input id="email" type="email" placeholder="Please enter Your Email" required>
+  <input id="number" type="number" placeholder="Please enter Your number" min="10" max="100">
+  <label id="name-label" for="name">Name</label>
+    <label id="email-label" for="email">Email</label>
+      <label id="number-label" for="number">Number</label>
+      <select id="dropdown">
+        <option value="student">student</option>
+        <option value="developer">Developer</option>
+        </select>
+        <button id="submit" type="submit">Submit</button>
+        <label>
+<input type="radio" name="experience" value="beginner"> Beginner
+</label>
+
+<label>
+<input type="radio" name="experience" value="advanced"> Advanced
+</label>
+<label>
+  <input type="checkbox" value="HTML">HTML</label>
+  <input type="checkbox" value="CSS">CSS
+  </label>
+  <textarea placeholder="Enter Your comments here"</textarea>
+
+
+
+  </body>
+</html>
